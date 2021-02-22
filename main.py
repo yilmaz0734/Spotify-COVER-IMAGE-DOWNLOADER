@@ -81,7 +81,7 @@ class spotify_data():
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
-        uic.loadUi('uygulamam.ui', self)
+        uic.loadUi('application.ui', self)
         path = Path(__file__).parent / "667775.jpg"
         path=str(path).replace("\\","/")
         self.setStyleSheet('background-image : url("{}");'.format(path))
@@ -143,7 +143,7 @@ class Ui(QtWidgets.QMainWindow):
             error_dialog1.exec_()
         except Exception as e:
             error_dialog = QtWidgets.QErrorMessage()
-            error_dialog.showMessage('This doesn't exist in spotify database. {}'.format(e))
+            error_dialog.showMessage("This doesn't exist in spotify database. {}".format(e))
             error_dialog.exec_()
         
     def function2(self):
