@@ -8,6 +8,7 @@ By using the setup.py with the following steps, you can install this application
 2. (Run this command from the folder containing setup.py.) 
 3. Notice the build parameter we added at the end of the script call.
 
+IMPORTANT NOTE: To make this code work properly, you should directly download this folder, because the other files are required like: application.ui,notfound.png,example.log
 
 Creator: Emirhan Yılmaz Güney
 
