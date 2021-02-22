@@ -18,10 +18,10 @@ from selenium import webdriver
 from PyQt5 import QtWidgets
 from PyQt5 import uic
 from PyQt5 import QtCore
-desktopPath = os.path.normpath(os.path.expanduser("~/Desktop/AksoyApp Cover Images"))
+desktopPath = os.path.normpath(os.path.expanduser("~/Desktop/SpotifyApp Cover Images"))
 if not os.path.exists(desktopPath):
     os.makedirs(desktopPath)
-desktopPath2 = os.path.normpath(os.path.expanduser("~/Desktop/AksoyApp Cover Images/Required Files"))
+desktopPath2 = os.path.normpath(os.path.expanduser("~/Desktop/SpotifyApp Cover Images/Required Files"))
 if not os.path.exists(desktopPath2):
     os.makedirs(desktopPath2)
 sys.stdout = sys.stderr = open(f'{desktopPath}/example.log', 'a')
