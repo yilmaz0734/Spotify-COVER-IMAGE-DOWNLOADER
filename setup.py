@@ -14,7 +14,7 @@ if sys.platform == "win32":
 includefiles = ['667775.jpg','application.ui','notfound.png','Golden-Spotify-icon-png.ico']
 includes = []
 excludes = ['Tkinter']
-packages = ['os','PyQt5','spotipy','selenium','PyQt5.QtGui','PyQt5.QtWidgets','PyQt5.uic','PyQt5.QtCore','sys']
+packages = ['os','PyQt5','spotipy','PyQt5.QtGui','PyQt5.QtWidgets','PyQt5.uic','PyQt5.QtCore','sys']
 
 setup(
     name = 'CoverImageDownloader',
