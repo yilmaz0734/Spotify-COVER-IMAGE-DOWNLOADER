@@ -14,7 +14,6 @@ import warnings
 import PIL
 from bs4 import BeautifulSoup
 from PIL import ImageEnhance
-from selenium import webdriver
 from PyQt5 import QtWidgets
 from PyQt5 import uic
 from PyQt5 import QtCore
