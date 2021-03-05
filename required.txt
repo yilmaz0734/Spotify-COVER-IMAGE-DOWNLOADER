@@ -1,0 +1,14 @@
+#This file includes the packages you need to have before working with the project.
+
+
+#Spotipy Api
+spotipy==2.16.1
+
+#Provides user interface
+PyQt5==5.15.2
+
+#Image Handling
+Pillow==8.1.0
+
+#Building an exe application
+cx_freeze==6.5.3
