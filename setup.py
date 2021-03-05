@@ -11,7 +11,7 @@ from PyQt5 import QtCore
 base = None
 if sys.platform == "win32":
     base = "Win32GUI"
-includefiles = ['667775.jpg','uygulamam.ui','notfound.png','Golden-Spotify-icon-png.ico']
+includefiles = ['667775.jpg','application.ui','notfound.png','Golden-Spotify-icon-png.ico']
 includes = []
 excludes = ['Tkinter']
 packages = ['os','PyQt5','spotipy','selenium','PyQt5.QtGui','PyQt5.QtWidgets','PyQt5.uic','PyQt5.QtCore','sys']
